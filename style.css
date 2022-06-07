@@ -163,7 +163,7 @@ nav ul li a:hover {
 
 .item-2 {
     width: 28%;
-    background-image: url(./images/2.png);
+    background-image: url(2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,7 +177,7 @@ nav ul li a:hover {
 
 .item-3 {
     width: 28%;
-    background-image: url(./images/3.png);
+    background-image: url(3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -190,7 +190,7 @@ nav ul li a:hover {
 
 .item-4 {
     width: 28%;
-    background-image: url(./images/6.png);
+    background-image: url(6.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,7 +203,7 @@ nav ul li a:hover {
 
 .item-5 {
     width: 28%;
-    background-image: url(./images/4.png);
+    background-image: url(4.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -217,7 +217,7 @@ nav ul li a:hover {
 
 .item-6 {
     width: 28%;
-    background-image: url(./images/5.png);
+    background-image: url(5.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
