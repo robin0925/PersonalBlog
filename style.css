@@ -108,8 +108,22 @@ nav ul li a:hover {
     font-size: 18px;
     font-weight: 300;
     line-height: 2em;
+    padding-bottom: 15px;
 
 }
+
+.about-left button {
+    .about-left button {
+    padding: 10px 15px;
+}
+    
+.about-left button a {
+    font=family: laton;
+    font-size: 18px;
+    font-weight: bold;
+    color:black;
+}
+    
 
 .about-right {
     padding: 50px 40px;
