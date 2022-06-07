@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
+
+
+
+/* Header start */
+
+header {
+    width: 100%;
+    display: inline-flex;
+}
+
+.logo {
+    width: 100%;
+    padding: 50px 50px;
+}
+
+.logo h1 {
+    font-family: merriweather;
+    font-size: 50px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.logo a:hover {
+    color: darkred;
+    transition: 0.5s ease;
+}
+
+nav {
+    padding: 75px 20px;
+    /* height: 100px; */
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-family: lato;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+nav ul li a:hover {
+    color:brown;
+    text-decoration: underline;
+    transition: 0.5s ease;
+}
+
+/* Header end */
+
+
+
+/* Section ABOUT start */
+
+/* #about {
+    
+} */
+.about-content {
+    display: inline-flex;
+}
+
+.about-left {
+    padding: 150px 50px;
+    width: 50%;
+    margin: 0;
+}
+
+.about-left h1 {
+    color: black;
+    font-size: 50px;
+}
+
+.about-left p {
+    color: black;
+    font-family: lato;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2em;
+
+}
+
+.about-right {
+    padding: 50px 40px;
+    /* background-color: darkblue; */
+    width: 50%;
+    margin: 0;
+}
+
+/* .about-right img {
+    box-shadow:10px 10px 10px burlywood;
+    border-radius: 1500px;
+} */
+
+/* Section end */
+
+
+
+/* Section Gallery start */
+
+.gallery-content {
+    display: inline-flex;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+.gallery-title {
+    text-align: center;
+    font-family: merriweather;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.item-1 {
+    width: 28%;
+    background-image: url(./images/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 20px;
+    border-radius: 60%;
+    box-shadow: 10px 10px 10px #0008;
+    margin-right: 10px;
+    transition: 0.5s ease;
+    
+    
+}
+
+.item-2 {
+    width: 28%;
+    background-image: url(./images/2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 20px;
+    border-radius: 60%;
+    box-shadow: 10px 10px 10px #0008;
+    margin-right: 5px;
+    margin-left:5px ;
+    transition: 0.5s ease;
+}
+
+.item-3 {
+    width: 28%;
+    background-image: url(./images/3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 20px;
+    border-radius: 60%;
+    box-shadow: 10px 10px 10px #0008;
+    margin-left: 10px;
+    transition: 0.5s ease;
+}
+
+.item-4 {
+    width: 28%;
+    background-image: url(./images/6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 20px;
+    border-radius: 60%;
+    box-shadow: 10px 10px 10px #0008;
+    margin-right: 10px;
+    transition: 0.5s ease;
+}
+
+.item-5 {
+    width: 28%;
+    background-image: url(./images/4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 20px;
+    border-radius: 60%;
+    box-shadow: 10px 10px 10px #0008;
+    margin-right: 5px;
+    margin-left:5px ;
+    transition: 0.5s ease;
+}
+
+.item-6 {
+    width: 28%;
+    background-image: url(./images/5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 20px;
+    border-radius: 60%;
+    box-shadow: 10px 10px 10px #0008;
+    margin-left: 10px;
+    transition: 0.5s ease;
+}
+
+.gallery-h3 {
+    font-family: merriweather;
+    font-size: 23px;
+    color: white;
+    opacity: 0;
+    transition: 1s ease;
+    text-shadow: 4px 4px black;
+}
+
+.gallery-p {
+    color: white;
+    font-family: lato;
+    font-weight: bold;
+    opacity: 0;
+    transition: 0.5s ease;
+    text-shadow: 4px 4px darkred;
+}
+
+.gallery-content-2 {
+    display: inline-flex;
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.item:hover {
+    background-color: rgb(75, 71, 71);
+    background-blend-mode: overlay;
+    transition: 1s ease;
+}
+
+.item:hover .hover {
+    opacity: 1;
+    transition: 0.5s ease;
+    
+}
+
+/* Section Gallery end */
+
+/* Section Hobby start */
+
+#hobby {
+    padding: 0 50px;
+}
+.hobby-title {
+    padding: 50px 20px;
+}
+.hobby-title h1{
+    font-family: merriweather;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hobby-text p {
+    font-family: lato;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2em;
+}
+/* Section Hobby end */
+
+/* Section Contact start */
+.contact-us {
+    clear: both;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.icons {
+    padding: 20px 70px;
+}
+
+.icons p {
+    margin: 10px 0;
+    font-family: merriweather;
+    font-size: 17px;
+    line-height: 2em;
+}
+
+.icons i {
+    font-size: 25px;
+    color:rgb(107, 69, 69)
+}
+
+.contact-us h1 {
+    font-family: merriweather;
+    font-size: 50px;
+    text-align: center;
+}
+
+.contact {
+    width: 100%;
+    display: inline-flex;
+    padding: 0 60px;
+}
+
+.contact-form {
+    width: 50%;
+    padding: 10px;
+    font-size: lato;
+}
+
+.contact-form input {
+    width: 75%;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 1px;
+    color: black;
+    font-family: lato;
+
+}
+
+
+.contact-form textarea {
+    width: 75%;
+    border-radius: 20px;
+    border: solid 1px;
+    color: black;
+}
+
+.btn-submit {
+    padding: 10px 15px;
+    font-family: lato;
+    font-size: 18px;
+    font-weight: bold;
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s ease;
+    box-shadow: 3px 5px 10px 1px black;
+}
+
+.btn-submit:hover {
+    border: solid 1px darkred;
+    color: darkred;
+    transition: 0.5s ease;
+    box-shadow: 3px 5px 10px 1px rgb(87, 6, 6);
+}
+
+.mapouter {
+    box-shadow: 5px 3px 10px 2px #0009;
+    background-color: darkgray;
+    width: 50%;
+}
+
+
+
+
+
+/* Section Contact end */
+
+/* Section Footer start */
+#footer {
+    margin-top: 50px;
+    padding: 100px 20px;
+}
+
+.footer {
+    width: 100%;
+    display: inline-flex;
+}
+
+
+#footer h3 {
+    padding: 20px 0;
+    font-family: merriweather;
+    font-weight: bold;
+    color: black
+}
+
+.social-col {
+    width: 50%;
+}
+
+.fa {
+    padding: 20px;
+}
+
+.fa a{
+    font-size: 50px;
+    width: 50px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram{
+    background: #125688;
+    color: white;
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.copyright {
+    width: 50%;
+}
+
+.copyright p {
+    font-family: lato;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: darkblue;
+    transition: 0.5s ease;
+}
+
+.copyright a:hover {
+    color: darkred;
+    transition: 0.5s ease;
+}
+
+
+/* Section Footer end */
+
+
+/* Section Blog start */
+#blog-section {
+    padding: 100px 0;
+}
+
+.blog-title {
+    text-align: center;
+}
+
+.blog-title h1 {
+    font-family: merriweather;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.leftcolumn {
+    float: left;
+    width: 68%;
+    margin-right: 20px;
+    padding: 10px;
+  }
+
+.rightcolumn {
+    float: left;
+    width: 30%;
+    /* padding-left: 20px; */
+    float: right;
+    padding: 10px;
+    
+  }
+
+.card {
+    background: rgba( 217, 202, 202, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 40px 30px;
+    margin-top: 20px;
+  }
+
+.card h2 {
+    font-family: merriweather;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.card h3 {
+    font-family: merriweather;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.card h5 {
+    padding-top: 10px;
+    font-family: lato;
+    font-size: 16px;
+}
+
+.card p {
+    font-family: lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+.card ol {
+    padding-left: 15px;
+}
+
+.card ol li {
+    font-family: lato;
+    font-size: 16p;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+
+
+
+/* Section Blog end */
+
+
+
